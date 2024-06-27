@@ -1,4 +1,8 @@
-syntax = "proto3"
+syntax = "proto3";
+
+package processor;
+
+option go_package = "github.com/TharunKumarReddyPolu/pc-book-app-grpc/pb";
 
 message CPU {
 	// Brand of the the CPU
